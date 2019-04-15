@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-width: 1300px;
+}
+
+/*网页头部样式*/
+header{
+    height: 133px;
+}
+.header_top{
+    width: 1000px;
+    height: 78px;
+    margin:0 auto ;
+    line-height: 78px;
+    white-space: nowrap;
+}
+.header_bottom{
+    height: 55px;
+    margin: 0 auto;
+    background: #2c323b;
+    white-space: nowrap;
+    min-width: 1300px;
+}
+header>div>ul li{
+    list-style: none;
+    display: inline-block;
+}
+.search>input{
+    width:249px;
+    height: 34px;
+    margin-left: 45px;
+    margin-right: 95px;
+    outline: none;
+}
+.search{
+    position: relative;
+}
+.search>img{
+    position: absolute;
+    top: 29px;
+    left:266px;
+}
+header>div>ul>li:nth-child(3)>ul li:last-child{
+    color: #777;
+}
+.server{
+    margin: 0 15px;
+    color: #777;
+    font-size: 13px;
+}
+header>div>ul>li:nth-child(3)>ul li a:hover{
+    text-decoration: none;
+    color:#009af3;
+}
+header>div>ul>li:last-child{
+    margin-left: 15px;
+}
+.user1{
+    line-height: 30px;
+    background: #009af3;
+    border-radius:2px ;
+    margin-left: 15px;
+    height: 30px;
+    width: 50px;
+}
+.user1:hover{
+    background: #158fe1;
+}
+.user2{
+    line-height: 30px;
+    border-radius:2px ;
+    height: 30px;
+    width: 50px;
+    color: #777;
+    font-size: 13px;
+    border: 1px solid #777;
+}
+.user2:hover{
+    border: 1px solid #009af3;
+}
+.user1>a{
+    margin-left: 15px;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+}
+#login{
+    color: #fff;
+    margin-left: 12px;
+}
+.user2>a{
+    color: #777;
+    font-size: 13px;
+}
+.header_bottom>div{
+    width: 1000px;
+    height: 55px;
+    margin:0 auto ;
+}
+.header_bottom>div>ul>li{
+    list-style: none;
+    display: inline-block;
+    line-height: 55px;
+    margin-left: -5px;
+}
+.header_bottom>div>ul>li>a{
+    color:#fff ;
+    display: block;
+    padding: 0 30px;
+    height: 55px;
+}
+.header_bottom>div>ul>li>a:hover {
+    text-decoration: none;
+}
+.actived{
+    background:#169af3;
+}
+
+#nav>li>a:hover{
+    background:#169af3;
+}
+#nav>li:last-child>a>img{
+    margin-top: -5px;
+}
+#nav_two{
+    display: inline-block;
+}
+#nav_two>li>a{
+    font-size: 13px;
+    color: #bbb;
+    margin-left: -30px;
+}
+#nav_two>li>a:hover{
+    color: #169af3;
+}
+
+.header_bottom>div{
+    position: relative;
+}
+#nav_two{
+    position: absolute;
+    top: 0;
+    left: 690px;
+}
+/*更多按钮*/
+.more_list{
+    width: 113px;
+    height: 146px;
+    background-color: #252a32;
+    z-index: 99;
+    position: absolute;
+    color: #fff;
+    left: 316px;
+    top: 55px;
+    display:none;
+}
+.more_list>ul>li{
+    text-align: center;
+}
+.more_list>ul>li:hover{
+    background: #2D343D;
+}
+.more_list>ul>li>a{
+    text-align: center;
+    font-size: 15px;
+    color: #bbb;
+    display: block;
+    padding: 0;
+    height: 36px;
+    line-height: 36px;
+}
+.more_list>ul>li>a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+/*=================================================*/

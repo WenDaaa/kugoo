@@ -1,0 +1,713 @@
+<!doctype html>
+<html>
+<head>
+    <title>网页</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+    </style>
+</head>
+<body>
+<header>
+    <div class="header_top">
+        <ul>
+            <li><a href=""><img src="img/header/logo.png" alt="logo"/></a></li>
+            <li class="search">
+                <input type="text"/>
+                <img src="img/header/search.png" alt=""/>
+            </li>
+            <li>
+                <ul>
+                    <li>
+                        <a href="" class="server">客服中心</a>
+                    </li>
+                    <li>
+                        <a href="" class="server">招贤纳士</a>
+                    </li>
+                    <li>
+                        <a href="" class="server">会员中心</a>
+                    </li>
+                    <li>|</li>
+                    <li class="user1"><a href="" id="login">登录&nbsp;&nbsp;</a></li>
+                    <li class="user2"><a href="">&nbsp;&nbsp;&nbsp;注册</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="header_bottom">
+        <div>
+            <ul id="nav">
+                <li><a href="#" class="actived">首页</a></li>
+                <li><a href="list.html" >榜单</a></li>
+                <li><a href="down.html">下载客户端</a></li>
+                <li class="more_list1">
+                    <a href="#">更多&nbsp;&nbsp;<img src="img/header/arrowMored.png" alt=""/></a>
+                    <div class="more_list">
+                        <ul>
+                            <li><a href="#">电台</a></li>
+                            <li><a href="#">MV</a></li>
+                            <li><a href="#">歌单</a></li>
+                            <li><a href="#">歌手</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <ul id="nav_two">
+                <li><a href="#">音乐直播</a></li>
+                <li><a href="#">酷狗LIVE</a></li>
+                <li><a href="#">音乐人</a></li>
+                <li><a href="#">商城</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+ <div id="main">
+        <!--轮播图-->
+     <div id="demo" class="carousel" data-ride="carousel">
+                <!--指示器-->
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                    <li data-target="#demo" data-slide-to="3"></li>
+                    <li data-target="#demo" data-slide-to="4"></li>
+                    <li data-target="#demo" data-slide-to="5"></li>
+                </ul>
+                <!--轮播图片-->
+                <div>
+                    <div class="carousel-item active">
+                        <img src="img/index/carousel/1.jpg"/>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/index/carousel/2.jpg"/>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/index/carousel/3.jpg"/>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/index/carousel/4.jpg" />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/index/carousel/5.jpg"/>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/index/carousel/6.jpg"/>
+                    </div>
+                </div>
+                <!--指示箭头-->
+                <a href="#demo" class="carousel-control-prev" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a href="#demo" class="carousel-control-next" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+                <div class="download">
+                    <a href="#"><img src="img/index/carousel/pc.png" alt=""/>下载PC版</a>|
+                    <a href="#"><img src="img/index/carousel/mac.png" alt=""/>下载iPhone版</a>|
+                    <a href="#"><img src="img/index/carousel/andriod.png" alt=""/>下载Android版</a>
+                </div>
+            </div>
+     <div class="floor">
+        <!--第一层-->
+         <div class="one-floor">
+             <div class="one-floor-left">
+                 <div class="item-title">
+                     <img src="img/index/title/selectlist.jpg"/>
+                     <a href="#" class="more">更多</a>
+                 </div>
+                 <div id="one-floor-picture">
+                     <div class="relative big-p-h">
+                         <img src="img/index/list/big-p.jpg" class="big-picture put"/>
+                         <a href="#" class="big-picture">
+                             <img src="img/index/others/search.png" alt="play"/>
+                         </a>
+                         <div class="pf-bg1">
+                             <p>你是否牵着手，握住昨日如风</p>
+                             <p>Aiden</p>
+                         </div>
+                         <p class="p-style">
+                             <span><img src="img/index/others/ear.png" alt=""/></span>
+                             <span>249.3万</span>
+                         </p>
+                     </div>
+                     <div>
+                         <div class="relative normal-p-h">
+                             <img src="img/index/list/p2.jpg" class="normal-picture put"/>
+                             <a href="#" class="normal-picture">
+                                 <img src="img/index/others/search.png" alt="play"/>
+                             </a>
+                             <div class="pf-bg">
+                                 <p> 倾心动听:100...</p>
+                                 <p> May</p>
+                             </div>
+                             <p class="p-style">
+                                 <span><img src="img/index/others/ear.png" alt=""/></span>
+                                 <span>129万</span>
+                             </p>
+                         </div>
+                         <div class="relative  normal-p-h">
+                             <img src="img/index/list/swift.jpg" class="normal-picture put"/>
+                             <a href="#" class="normal-picture">
+                                 <img src="img/index/others/search.png" alt="play"/>
+                             </a>
+                             <div class="pf-bg  normal-p-h">
+                                 <p>「欧美金曲」...</p>
+                                 <p> 萌德不萌</p>
+                             </div>
+                             <p class="p-style">
+                                 <span><img src="img/index/others/ear.png" alt=""/></span>
+                                 <span>249.3万</span>
+                             </p>
+                         </div>
+                         <div class="relative  normal-p-h">
+                             <img src="img/index/list/p4.jpg" class="normal-picture put"/>
+                             <a href="#" class="normal-picture">
+                                 <img src="img/index/others/search.png" alt="play"/>
+                             </a>
+                             <div class="pf-bg">
+                                 <p> 男生独白：我...</p>
+                                 <p> 云歌呀</p>
+                             </div>
+                             <p class="p-style">
+                                 <span><img src="img/index/others/ear.png" alt=""/></span>
+                                 <span>360.4万</span>
+                             </p>
+                         </div>
+                         <div class="relative  normal-p-h">
+                             <img src="img/index/list/p5.jpg" class="normal-picture put"/>
+                             <a href="#" class="normal-picture">
+                                 <img src="img/index/others/search.png" alt="play"/>
+                             </a>
+                             <div class="pf-bg">
+                                 <p> 一树菩提一红...</p>
+                                 <p> 墨小宝</p>
+                             </div>
+                             <p class="p-style">
+                                 <span><img src="img/index/others/ear.png" alt=""/></span>
+                                 <span>158.6万</span>
+                             </p>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="one-floor-right">
+                 <div class="item-title"><img src="img/index/title/hotlist.jpg" alt=""/><a href="#" class="more">更多</a></div>
+                 <div>
+                     <div>
+                         <div class="relative">
+                             <img src="img/index/top/T1M4h4BKKj1RCvBVdK.jpg_240x240.jpg" class="small-picture"/>
+                             <a href="#" class="hover-1"><img src="img/index/others/search.png" alt="play"/></a>
+                         </div>
+                         <div>
+                             <dl>
+                                 <dt>酷狗飙升榜</dt>
+                                 <dd>1 . 乌兰托娅 - 花桥流水</dd>
+                                 <dd>2 . 曲肖冰 - 空心</dd>
+                             </dl>
+                         </div>
+                     </div>
+                     <div>
+                         <div class="relative">
+                             <img src="img/index/top/T1fHd4BXd_1RCvBVdK.jpg_240x240.jpg" class="small-picture"/>
+                             <a href="#" class="hover-1"><img src="img/index/others/search.png" alt="play"/></a>
+                         </div>
+                         <div>
+                             <dl>
+                                 <dt>酷狗TOP500</dt>
+                                 <dd>1 . 小潘潘、小峰峰 - 学猫叫</dd>
+                                 <dd>2 . 王北车 - 陷阱</dd>
+                             </dl>
+                         </div>
+                     </div>
+                     <div>
+                         <div class="relative">
+                             <img src="img/index/top/T1Fpd4BKbg1RCvBVdK.jpg_240x240.jpg" class="small-picture"/>
+                             <a href="#" class="hover-1"><img src="img/index/others/search.png" alt="play"/></a>
+                         </div>
+                         <div>
+                             <dl>
+                                 <dt>网络红歌榜</dt>
+                                 <dd>1 . 李哈哈、栋仔 - 星空下的相遇</dd>
+                                 <dd>2 . 冷漠 - 清风呀</dd>
+                             </dl>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+        <!--广告1-->
+         <div>
+            <a href="#"><img src="img/index/top/a70c5bdd24245b2eee765c0dc77a114b.jpg"/></a>
+        </div>
+         <!--第二层-->
+         <div class="two-floor">
+             <div class="new_music">
+                 <div class="item-title">
+                     <img src="img/index/title/newlist.jpg" alt=""/>
+                     <div class="new_music_tabs">
+                         <span data-item="#chinese" class="active">华语</span>
+                         <span data-item="#usa">欧美</span>
+                         <span data-item="#korea">韩国</span>
+                         <span data-item="#japan">日本</span>
+                     </div>
+                     <a>
+                         <img src="img/index/others/play1.png" alt=""/>
+                         <span>全部播放</span>
+                     </a>
+                 </div>
+                 <div class="new_music_list">
+                    <div>
+                        <ul id="chinese" class="box active" style="margin-top: 0">
+                            <li><a href=""><span>摩登兄弟-走马</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>04:34</span><span class="icon box"><span class="play"><img src="img/index/others/play1.png" alt="play"/></span><span class="down"><img src="img/index/others/down.png" alt="down"/></span></span></a></li>
+                            <li><a href=""><span>南征北战NZBZ、胡紫涵 - 以肥为美【大闹西游动画电影主题曲】</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>04:45</span><span class="icon box"><span class="play"><img src="img/index/others/play1.png" alt="play"/></span><span class="down"><img src="img/index/others/down.png" alt="down"/></span></span></a></li>
+                            <li><a href=""><span>汪苏泷-神奇伙伴【神奇伙伴去哪里主题曲】</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>04:55</span><span class="icon box"><span class="play"><img src="img/index/others/play1.png" alt="play"/></span><span class="down"><img src="img/index/others/down.png" alt="down"/></span></span></a></li>
+                            <li><a href=""><span>郑伊健、陈小春、谢天华、钱嘉乐、林晓峰 - 友情岁月【黄金兄弟电影插曲】</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>03:56</span><span class="icon box"><span class="play"><img src="img/index/others/play1.png" alt="play"/></span><span class="down"><img src="img/index/others/down.png" alt="down"/></span></span></a></li>
+                            <li><a href=""><span>宿涵-夜的第七章</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>02:26</span><span class="icon box"><span class="play"><img src="img/index/others/play1.png" alt="play"/></span><span class="down"><img src="img/index/others/down.png" alt="down"/></span></span></a></li>
+                            <li><a href=""><span>冷漠-我会永远把你珍藏</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>04:34</span><span class="icon box"><span class="play"><img src="img/index/others/play1.png" alt="play"/></span><span class="down"><img src="img/index/others/down.png" alt="down"/></span></span></a></li>
+                            <li><a href=""><span>张冬玲-寂寞情殇</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>04:35</span><span class="icon box"><span class="play"><img src="img/index/others/play1.png" alt="play"/></span><span class="down"><img src="img/index/others/down.png" alt="down"/></span></span></a></li>
+                            <li><a href=""><span>艾热小人物</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>03:34</span><span class="icon box"><span class="play"><img src="img/index/others/play1.png" alt="play"/></span><span class="down"><img src="img/index/others/down.png" alt="down"/></span></span></a></li>
+                            <li><a href=""><span>郭玲-拥抱</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>04:01</span><span class="icon box"><span class="play"><img src="img/index/others/play1.png" alt="play"/></span><span class="down"><img src="img/index/others/down.png" alt="down"/></span></span></a></li>
+                            <li><a href=""><span>常石磊-随行</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>04:34</span><span class="icon box"><span class="play"><img src="img/index/others/play1.png" alt="play"/></span><span class="down"><img src="img/index/others/down.png" alt="down"/></span></span></a></li>
+                            <li><a href=""><span>姚晨、马伊琍-为你【找到你电影闺蜜主题曲】</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>04:58</span><span class="icon box"><span class="play"><img src="img/index/others/play1.png" alt="play"/></span><span class="down"><img src="img/index/others/down.png" alt="down"/></span></span></a></li>
+                            <li><a href=""><span>马博-若相惜</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>04:34</span><span class="icon box"><span class="play"><img src="img/index/others/play1.png" alt="play"/></span><span class="down"><img src="img/index/others/down.png" alt="down"/></span></span></a></li>
+                            <li><a href=""><span>陆虎、黄雅莉-就酱</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>03:22</span><span class="icon box"><span class="play"><img src="img/index/others/play1.png" alt="play"/></span><span class="down"><img src="img/index/others/down.png" alt="down"/></span></span></a></li>
+                            <li><a href=""><span>林根河-i won t be afraid</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>03:46</span><span class="icon box"><span class="play"><img src="img/index/others/play1.png" alt="play"/></span><span class="down"><img src="img/index/others/down.png" alt="down"/></span></span></a></li>
+                            <li><a href=""><span>陈洁仪-诺贝热</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>03:57</span><span class="icon box"><span class="play"><img src="img/index/others/play1.png" alt="play"/></span><span class="down"><img src="img/index/others/down.png" alt="down"/></span></span></a></li>
+                            <li><a href=""><span>印子月-嗜睡症</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>04:34</span><span class="icon box"><span class="play"><img src="img/index/others/play1.png" alt="play"/></span><span class="down"><img src="img/index/others/down.png" alt="down"/></span></span></a></li>
+                            <li><a href=""><span>常石磊-随行</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>04:34</span><span class="icon box"><span class="play"><img src="img/index/others/play1.png" alt="play"/></span><span class="down"><img src="img/index/others/down.png" alt="down"/></span></span></a></li>
+                            <li><a href=""><span>张翰、成乔恩-落地成团</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>03:56</span><span class="icon box"><span class="play"><img src="img/index/others/play1.png" alt="play"/></span><span class="down"><img src="img/index/others/down.png" alt="down"/></span></span></a></li>
+                            <li><a href=""><span>宿涵-夜的第七章</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>02:26</span><span class="icon box"><span class="play"><img src="img/index/others/play1.png" alt="play"/></span><span class="down"><img src="img/index/others/down.png" alt="down"/></span></span></a></li>
+                            <li><a href=""><span>冷漠-我会永远把你珍藏</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>04:34</span><span class="icon box"><span class="play"><img src="img/index/others/play1.png" alt="play"/></span><span class="down"><img src="img/index/others/down.png" alt="down"/></span></span></a></li>
+                            <li><a href=""><span>姚晨、马伊琍-为你【找到你电影闺蜜主题曲】</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>04:58</span><span class="icon box"><span class="play"><img src="img/index/others/play1.png" alt="play"/></span><span class="down"><img src="img/index/others/down.png" alt="down"/></span></span></a></li>
+                            <li><a href=""><span>马博-若相惜</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>04:34</span><span class="icon box"><span class="play"><img src="img/index/others/play1.png" alt="play"/></span><span class="down"><img src="img/index/others/down.png" alt="down"/></span></span></a></li>
+                            <li><a href=""><span>陆虎、黄雅莉-就酱</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>03:22</span><span class="icon box"><span class="play"><img src="img/index/others/play1.png" alt="play"/></span><span class="down"><img src="img/index/others/down.png" alt="down"/></span></span></a></li>
+                        </ul>
+                        <ul id="usa" class="box">
+                            <li><a href=""><span>Mike Posner - Song About You</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>05:35</span></a></li>
+                            <li><a href=""><span>Machine Gun Kelly - Rap Devil</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>02:45</span></a></li>
+                            <li><a href=""><span>Silk City、Dua Lipa、Diplo、Mark Ronson - Electricity</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>04:41</span></a></li>
+                            <li><a href=""><span>Steve Aoki、Nicky Romero、Kiiara - Be Somebody</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>03:50</span></a></li>
+                            <li><a href=""><span>Hozier、Mavis Staples - Nina Cried Power</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>04:56</span></a></li>
+                            <li><a href=""><span>Tommy Genesis、Charli XCX - 100 Bad (Charli XCX Remix)</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>04:45</span></a></li>
+                            <li><a href=""><span>Carrie Underwood - End Up With You</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>04:21</span></a></li>
+                            <li><a href=""><span>Sigala、Ella Eyre、Meghan Trainor、French Montana - Just Got Paid</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>04:15</span></a></li>
+                            <li><a href=""><span>MK、Jonas Blue、Becky Hill - Back & Forth</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>06:48</span></a></li>
+                            <li><a href=""><span>Machine Gun Kelly - Rap Devil</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>04:15</span></a></li>
+                            <li><a href=""><span>Silk City、Dua Lipa、Diplo、Mark Ronson - Electricity</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>02:35</span></a></li>
+                            <li><a href=""><span>Mike Posner - Song About You</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>03:15</span></a></li>
+                            <li><a href=""><span>Silk City、Dua Lipa、Diplo、Mark Ronson</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>04:51</span></a></li>
+                            <li><a href=""><span>Machine Gun Kelly - Rap Devil</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>02:25</span></a></li>
+                            <li><a href=""><span>Big Big World</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>04:21</span></a></li>
+                            <li><a href=""><span>T.I.、Meek Mill - Jefe</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>02:55</span></a></li>
+                            <li><a href=""><span>Mike Posner - Song About You</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>03:40</span></a></li>
+                            <li><a href=""><span>Machine Gun Kelly - Rap Devil</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>03:42</span></a></li>
+                            <li><a href=""><span>Silk City、Dua Lipa、Diplo、Mark Ronson - Electricity</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>02:57</span></a></li>
+                            <li><a href=""><span>Mike Posner - Song About You</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>05:25</span></a></li>
+                            <li><a href=""><span>Hozier、Mavis Staples - Nina Cried Power</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>04:33</span></a></li>
+                            <li><a href=""><span>Machine Gun Kelly - Rap Devil</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>02:55</span></a></li>
+                            <li><a href=""><span>Carrie Underwood - End Up With You</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>04:21</span></a></li>
+                            <li><a href=""><span>T.I.、Meek Mill - Jefe</span><img src="img/index/others/only.png" class="mb-1 ml-2" alt=""/><span>03:21</span></a></li>
+                        </ul>
+                        <ul id="korea" class="box">
+                            <li><a href=""><span>银河 - So In Love【Lovely Horribly OST】</span><span>04:21</span></a></li>
+                            <li><a href=""><span>陆星材 - 고백 (Confession) (Prod. by 박근태)</span><span>04:21</span></a></li>
+                            <li><a href=""><span>DAY6 - Beautiful Feeling</span><span>04:21</span></a></li>
+                            <li><a href=""><span>NCT DREAM - We Go Up (Korea ver.)</span><span>04:21</span></a></li>
+                            <li><a href=""><span>N.Flying - Let Me Show You</span><span>04:21</span></a></li>
+                            <li><a href=""><span>OH MY GIRL - 불꽃놀이 (Remember Me)</span><span>04:21</span></a></li>
+                            <li><a href=""><span>NCT DREAM - We Go Up (Korea ver.)</span><span>04:21</span></a></li>
+                            <li><a href=""><span>南优铉 - 너만 괜찮다면 (If only you are fine)</span><span>04:21</span></a></li>
+                            <li><a href=""><span>朴智敏 - April Fools (0401) OST】</span><span>04:21</span></a></li>
+                            <li><a href=""><span>PRODUCE 48 - 앞으로 잘 부탁해 (We Together)</span><span>04:21</span></a></li>
+                            <li><a href=""><span>Ravi、梁耀燮 - ADORABLE</span><span>04:21</span></a></li>
+                            <li><a href=""><span>NCT DREAM - We Go Up (Korea ver.)</span><span>04:21</span></a></li>
+                            <li><a href=""><span>N.Flying - Let Me Show You</span><span>04:21</span></a></li>
+                            <li><a href=""><span>OH MY GIRL - 불꽃놀이 (Remember Me)</span><span>04:21</span></a></li>
+                            <li><a href=""><span>PRODUCE 48 - 앞으로 잘 부탁해 (We Together)</span><span>04:21</span></a></li>
+                            <li><a href=""><span>N.Flying - Let Me Show You【认识的妻子 OST】</span><span>04:21</span></a></li>
+                            <li><a href=""><span>银河 - So In Love【Lovely Horribly OST】</span><span>04:21</span></a></li>
+                            <li><a href=""><span>陆星材 - 고백 (Confession) (Prod. by 박근태)</span><span>04:21</span></a></li>
+                            <li><a href=""><span>DAY6 - Beautiful Feeling</span><span>04:21</span></a></li>
+                            <li><a href=""><span>NCT DREAM - We Go Up (Korea ver.)</span><span>04:21</span></a></li>
+                            <li><a href=""><span>N.Flying - Let Me Show You</span><span>04:21</span></a></li>
+                            <li><a href=""><span>OH MY GIRL - 불꽃놀이 (Remember Me)</span><span>04:21</span></a></li>
+                            <li><a href=""><span>NCT DREAM - We Go Up (Korea ver.)</span><span>04:21</span></a></li>
+                            <li><a href=""><span>N.Flying - Let Me Show You【认识的妻子 OST】</span><span>04:21</span></a></li>
+                        </ul>
+                        <ul id="japan" class="box">
+                            <li><a href=""><span>末吉秀太、ISSA - Over  Quartzer 【假面骑士ZI-O主题曲】</span><span>04:21</span></a></li>
+                            <li><a href=""><span>Sonar Pocket - 君の名前</span><span>04:21</span></a></li>
+                            <li><a href=""><span>大塚愛 - RounD</span><span>04:21</span></a></li>
+                            <li><a href=""><span>Sonar Pocket - 君の名前</span><span>04:21</span></a></li>
+                            <li><a href=""><span>ISSA - Over  Quartzer </span><span>04:21</span></a></li>
+                            <li><a href=""><span>福山雅治 - 甲子園</span><span>04:21</span></a></li>
+                            <li><a href=""><span>大塚愛 - RounD</span><span>04:21</span></a></li>
+                            <li><a href=""><span>福山雅治 - 甲子園</span><span>04:21</span></a></li>
+                            <li><a href=""><span>OH MY GIRL - 불꽃놀이 (Remember Me)</span><span>04:21</span></a></li>
+                            <li><a href=""><span>PRODUCE 48 - 앞으로 잘 부탁해 (We Together)</span><span>04:21</span></a></li>
+                            <li><a href=""><span>N.Flying - Let Me Show You【认识的妻子 OST】</span><span>04:21</span></a></li>
+                            <li><a href=""><span>银河 - So In Love【Lovely Horribly OST】</span><span>04:21</span></a></li>
+                            <li><a href=""><span>陆星材 - 고백 (Confession) (Prod. by 박근태)</span><span>04:21</span></a></li>
+                            <li><a href=""><span>DAY6 - Beautiful Feeling</span><span>04:21</span></a></li>
+                            <li><a href=""><span>NCT DREAM - We Go Up (Korea ver.)</span><span>04:21</span></a></li>
+                            <li><a href=""><span>N.Flying - Let Me Show You</span><span>04:21</span></a></li>
+                            <li><a href=""><span>末吉秀太、ISSA - Over  Quartzer 【假面骑士ZI-O主题曲】</span><span>04:21</span></a></li>
+                            <li><a href=""><span>Sonar Pocket - 君の名前</span><span>04:21</span></a></li>
+                            <li><a href=""><span>大塚愛 - RounD</span><span>04:21</span></a></li>
+                            <li><a href=""><span>Sonar Pocket - 君の名前</span><span>04:21</span></a></li>
+                            <li><a href=""><span>ISSA - Over  Quartzer </span><span>04:21</span></a></li>
+                            <li><a href=""><span>福山雅治 - 甲子園</span><span>04:21</span></a></li>
+                            <li><a href=""><span>大塚愛 - RounD</span><span>04:21</span></a></li>
+                            <li><a href=""><span>福山雅治 - 甲子園</span><span>04:21</span></a></li>
+                        </ul>
+                    </div>
+                 </div>
+                 <div class="new_music_btn">
+                     <img src="img/index/others/left1.png" alt="prev"/>
+                     <span class="page page-num">1</span>
+                     <span class="page">/ 3</span>
+                     <img src="img/index/others/right.png" alt="next"/>
+                 </div>
+             </div>
+             <div class="hot_mv">
+                 <div class="item-title">
+                     <img src="img/index/title/albumlist.jpg" alt=""/>
+                     <a href="#" class="more">更多</a>
+                 </div>
+                 <div>
+                     <div class="relative">
+                         <img src="img/index/list/liuyuning.jpg" alt=""/>
+                         <div class="pf-bg1">
+                             <p>有多少爱可以重来</p>
+                             <p class="singer" style="font-size: 14px">摩登兄弟刘宇宁</p>
+                         </div>
+                         <div class="mask">
+                             <img src="img/index/others/search.png" alt="play"/>
+                         </div>
+                     </div>
+                     <div class="relative mv-small2">
+                         <a href="">
+                             <img src="img/index/list/five.jpg" alt=""/>
+                             <div>
+                                 <p class="mv-title">Don’ts Don’ts</p>
+                                 <p class="singer" style="color: #cfcfcf;">五月天、Slot Machine</p>
+                             </div>
+                         </a>
+                         <div class="mask2">
+                             <img src="img/index/others/search.png" alt="play"/>
+                         </div>
+                     </div>
+                     <div class="relative mv-small2">
+                         <a href="#">
+                             <img src="img/index/list/rem.jpg" alt=""/>
+                             <div>
+                                 <p class="mv-title">Alan Walker Relift</p>
+                                 <p class="singer" style="color: #cfcfcf;">BlackLable</p>
+                             </div>
+                         </a>
+                         <div class="mask2">
+                             <img src="img/index/others/search.png" alt="play"/>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <!--广告2-->
+         <div>
+             <a href="#"><img src="img/index/top/0bf767a880c68f763c82a60f03dc2f08.jpg"/></a>
+         </div>
+         <!--第三层-->
+         <div class="three-floor">
+             <div class="hot-radio">
+                 <div class="item-title">
+                     <img src="img/index/title/hotredio.jpg" alt=""/>
+                     <a href="#" class="more">更多</a>
+                 </div>
+                 <div class="radio-item">
+                     <ul>
+                         <li>
+                             <a href="#">
+                                 <div class="cover">
+                                     <img src="img/index/radio/radio_1.jpg" alt="play"/>
+                                 </div>
+                                 <div class="radio-h">
+                                     <img src="img/index/others/search1.png" alt=""/>
+                                 </div>
+                                 <div>KTV必点曲</div>
+                            </a>
+                         </li>
+                         <li>
+                             <a href="#">
+                                 <div class="cover">
+                                     <img src="img/index/radio/radio_2.jpg" alt="play"/>
+                                 </div>
+                                 <div class="radio-h">
+                                     <img src="img/index/others/search1.png" alt=""/>
+                                 </div>
+                                 <div>中文DJ</div>
+                             </a>
+                         </li>
+                         <li>
+                             <a href="#">
+                                 <div class="cover">
+                                     <img src="img/index/radio/radio_3.jpg" alt="play"/>
+                                 </div>
+                                 <div class="radio-h">
+                                     <img src="img/index/others/search1.png" alt=""/>
+                                 </div>
+                                 <div>酷狗热歌</div>
+                             </a>
+                         </li>
+                         <li>
+                             <a href="#">
+                                 <div class="cover">
+                                     <img src="img/index/radio/radio_4.jpg" alt="play"/>
+                                 </div>
+                                 <div class="radio-h">
+                                     <img src="img/index/others/search1.png" alt=""/>
+                                 </div>
+                                 <div>网络红歌</div>
+                             </a>
+                         </li>
+                         <li>
+                             <a href="#">
+                                 <div class="cover">
+                                     <img src="img/index/radio/radio_5.jpg" alt="play"/>
+                                 </div>
+                                 <div class="radio-h">
+                                     <img src="img/index/others/search1.png" alt=""/>
+                                 </div>
+                                 <div>经典</div>
+                             </a>
+                         </li>
+                         <li>
+                             <a href="#">
+                                 <div class="cover">
+                                     <img src="img/index/radio/radio_6.jpg" alt="play"/>
+                                 </div>
+                                 <div class="radio-h">
+                                     <img src="img/index/others/search1.png" alt=""/>
+                                 </div>
+                                 <div>老情歌</div>
+                             </a>
+                         </li>
+                         <li>
+                             <a href="#">
+                                 <div class="cover">
+                                     <img src="img/index/radio/radio_7.jpg" alt="play"/>
+                                 </div>
+                                 <div class="radio-h">
+                                     <img src="img/index/others/search1.png" alt=""/>
+                                 </div>
+                                 <div>新歌</div>
+                             </a>
+                         </li>
+                         <li>
+                             <a href="#">
+                                 <div class="cover">
+                                     <img src="img/index/radio/radio_8.jpg" alt="play"/>
+                                 </div>
+                                 <div class="radio-h">
+                                     <img src="img/index/others/search1.png" alt=""/>
+                                 </div>
+                                 <div>动漫</div>
+                             </a>
+                         </li>
+                         <li>
+                             <a href="#">
+                                 <div class="cover">
+                                     <img src="img/index/radio/radio_9.jpg" alt="play"/>
+                                 </div>
+                                 <div class="radio-h">
+                                     <img src="img/index/others/search1.png" alt=""/>
+                                 </div>
+                                 <div>轻音乐</div>
+                             </a>
+                         </li>
+                         <li>
+                             <a href="#">
+                                 <div class="cover">
+                                     <img src="img/index/radio/radio_10.jpg" alt="play"/>
+                                 </div>
+                                 <div class="radio-h">
+                                     <img src="img/index/others/search1.png" alt=""/>
+                                 </div>
+                                 <div>最爱成名曲</div>
+                             </a>
+                         </li>
+                     </ul>
+                 </div>
+             </div>
+             <div class="hot-singer relative">
+                 <div class="item-title">
+                     <img src="img/index/title/hotsinger.jpg" alt=""/>
+                     <a href="#" class="more">更多</a>
+                 </div>
+                 <ul class="singer-tabs">
+                     <li><a href="#china" class="active">华语</a></li>
+                     <li><a href="#europe">欧美</a></li>
+                     <li><a href="#jk">日韩</a></li>
+                 </ul>
+                 <div class="singer-item">
+                     <div id="china">
+                         <a href="" class="singer_bp relative">
+                             <img src="img/index/singer/c1.jpg" alt=""/>
+                             <span class="singer_n">薛之谦</span>
+                             <div class="singer_h"></div>
+                         </a>
+                         <a href="" class="singer_bp relative">
+                             <img src="img/index/singer/c2.jpg" alt=""/>
+                             <span class="singer_n">周杰伦</span>
+                             <div class="singer_h"></div>
+                         </a>
+                         <a href="" class="singer_sp relative">
+                             <img src="img/index/singer/c3.jpg" alt=""/>
+                             <span class="singer_n">摩登兄弟</span>
+                             <div class="singer_h"></div>
+                         </a>
+                         <a href="" class="singer_sp relative">
+                             <img src="img/index/singer/c4.jpg" alt=""/>
+                             <span class="singer_n">98K</span>
+                             <div class="singer_h"></div>
+                         </a>
+                         <a href="" class="singer_sp relative">
+                             <img src="img/index/singer/c5.jpg" alt=""/>
+                             <span class="singer_n">邓紫棋</span>
+                             <div class="singer_h"></div>
+                         </a>
+                     </div>
+                     <div id="europe" class="box">
+                         <a href="" class="singer_bp relative">
+                             <img src="img/index/singer/u1.jpg" alt=""/>
+                             <span class="singer_n">Michael Jackson</span>
+                             <div class="singer_h"></div>
+                         </a>
+                         <a href="" class="singer_bp relative">
+                             <img src="img/index/singer/u2.jpg" alt=""/>
+                             <span class="singer_n">Alan Walker</span>
+                             <div class="singer_h"></div>
+                         </a>
+                         <a href="" class="singer_sp relative">
+                             <img src="img/index/singer/u3.jpg" alt=""/>
+                             <span class="singer_n">Marshmello</span>
+                             <div class="singer_h"></div>
+                         </a>
+                         <a href="" class="singer_sp relative">
+                             <img src="img/index/singer/u4.jpg" alt=""/>
+                             <span class="singer_n">Justin Bieber</span>
+                             <div class="singer_h"></div>
+                         </a>
+                         <a href="" class="singer_sp relative">
+                             <img src="img/index/singer/u5.jpg" alt=""/>
+                             <span class="singer_n">Taylor Swift</span>
+                             <div class="singer_h"></div>
+                         </a>
+                     </div>
+                     <div id="jk" class="box">
+                         <a href="" class="singer_bp relative">
+                             <img src="img/index/singer/k1.jpg" alt=""/>
+                             <span class="singer_n">EXO</span>
+                             <div class="singer_h"></div>
+                         </a>
+                         <a href="" class="singer_bp relative">
+                             <img src="img/index/singer/k2.jpg" alt=""/>
+                             <span class="singer_n">BIGBANG</span>
+                             <div class="singer_h"></div>
+                         </a>
+                         <a href="" class="singer_sp relative">
+                             <img src="img/index/singer/k3.jpg" alt=""/>
+                             <span class="singer_n">G-DRAGON</span>
+                             <div class="singer_h"></div>
+                         </a>
+                         <a href="" class="singer_sp relative">
+                             <img src="img/index/singer/k4.jpg" alt=""/>
+                             <span class="singer_n">少女时代</span>
+                             <div class="singer_h"></div>
+                         </a>
+                         <a href="" class="singer_sp relative">
+                             <img src="img/index/singer/k5.jpg" alt=""/>
+                             <span class="singer_n">泫雅</span>
+                             <div class="singer_h"></div>
+                         </a>
+                     </div>
+                 </div>
+                 <div class="singer-tabs2">
+                     <a href="#china" style="background: #009af3"></a>
+                     <a href="#europe"></a>
+                     <a href="#jk"></a>
+                 </div>
+             </div>
+         </div>
+         <!--广告3-->
+         <div>
+             <a href="#"><img src="img/index/top/076aaf25f449d77f0201b0a8d3112fdc.jpg"/></a>
+         </div>
+         <!--第四层-->
+         <div class="four-floor">
+             <div class="item-title">
+                 <img src="img/index/title/partner.jpg" alt=""/>
+             </div>
+             <div>
+                 <ul class="partner">
+                     <li><img src="img/index/partner/partner01.jpg" alt=""/></li>
+                     <li><img src="img/index/partner/partner02.jpg" alt=""/></li>
+                     <li><img src="img/index/partner/partner03.jpg" alt=""/></li>
+                     <li><img src="img/index/partner/partner04.jpg" alt=""/></li>
+                     <li><img src="img/index/partner/partner05.jpg" alt=""/></li>
+                     <li><img src="img/index/partner/partner06.jpg" alt=""/></li>
+                     <li><img src="img/index/partner/partner07.jpg" alt=""/></li>
+                     <li><img src="img/index/partner/partner08.jpg" alt=""/></li>
+                     <li><img src="img/index/partner/partner09.jpg" alt=""/></li>
+                     <li><img src="img/index/partner/partner10.jpg" alt=""/></li>
+                     <li><img src="img/index/partner/partner11.jpg" alt=""/></li>
+                     <li><img src="img/index/partner/partner12.jpg" alt=""/></li>
+                     <li><img src="img/index/partner/partner13.jpg" alt=""/></li>
+                     <li><img src="img/index/partner/partner14.jpg" alt=""/></li>
+                     <li><img src="img/index/partner/partner15.jpg" alt=""/></li>
+                     <li><img src="img/index/partner/partner16.jpg" alt=""/></li>
+                     <li><img src="img/index/partner/partner17.jpg" alt=""/></li>
+                     <li><img src="img/index/partner/partner18.jpg" alt=""/></li>
+                     <li><img src="img/index/partner/partner19.jpg" alt=""/></li>
+                     <li><img src="img/index/partner/partner20.jpg" alt=""/></li>
+                     <li><img src="img/index/partner/partner21.jpg" alt=""/></li>
+                 </ul>
+             </div>
+         </div>
+         <!--第五层-->
+         <div class="five-floor">
+             <div class="item-title">
+                 <img src="img/index/title/friendLink.jpg" alt=""/>
+             </div>
+             <div class="friendLink">
+                     <a href="#">爱美网</a>
+                     <a href="#">央视网综艺频道</a>
+                     <a href="#">汽车论坛</a>
+                     <a href="#">IT之家</a>
+                     <a href="#">iPhone游戏</a>
+                     <a href="#">旅游攻略</a>
+                     <a href="#">悦声无限</a>
+                     <a href="#">华为商城</a>
+                     <a href="#">365音乐网</a>
+                     <a href="#">软件下载</a>
+                     <a href="#">漫漫看漫画</a>
+                     <a href="#">手机游戏</a>
+                     <a href="#">5sing原创音乐</a>
+                     <a href="#">腾讯音乐人</a>
+                     <a href="#">豌豆荚</a>
+                     <a href="#">爱奇艺</a>
+             </div>
+         </div>
+     </div>
+ </div>
+<iframe src="footer.html" frameborder="0" style="width:100%;height:320px;min-width: 1300px"></iframe>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/index.js"></script>
+<script>
+
+</script>
+</body>
+</html>

@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/list.css"/>
+    <style>
+        .download>span{
+            display: inline-block;
+            text-align: center;
+            width: 108px;
+            height: 36px;
+            line-height: 36px;
+            margin-left: 20px;
+            border-radius: 3px;
+            vertical-align: middle;
+            background-color: #169af3;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .download>span:hover{
+            background-color: #158fe1;
+        }
+        .download{
+            height: 120px;
+            line-height: 120px;
+            text-align: center;
+            font-size: 16px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <div class="header_top">
+        <ul>
+            <li><a href=""><img src="img/header/logo.png" alt="logo"/></a></li>
+            <li class="search">
+                <input type="text"/>
+                <img src="img/header/search.png" alt=""/>
+            </li>
+            <li>
+                <ul>
+                    <li>
+                        <a href="" class="server">客服中心</a>
+                    </li>
+                    <li>
+                        <a href="" class="server">招贤纳士</a>
+                    </li>
+                    <li>
+                        <a href="" class="server">会员中心</a>
+                    </li>
+                    <li>|</li>
+                    <li class="user1"><a href="" id="login">登录&nbsp;&nbsp;</a></li>
+                    <li class="user2"><a href="">&nbsp;&nbsp;&nbsp;注册</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="header_bottom">
+        <div>
+            <ul id="nav">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="#" class="actived" >榜单</a></li>
+                <li><a href="down.html">下载客户端</a></li>
+                <li class="more_list1">
+                    <a href="#">更多&nbsp;&nbsp;<img src="img/header/arrowMored.png" alt=""/></a>
+                    <div class="more_list">
+                        <ul>
+                            <li><a href="#">电台</a></li>
+                            <li><a href="#">MV</a></li>
+                            <li><a href="#">歌单</a></li>
+                            <li><a href="#">歌手</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <ul id="nav_two">
+                <li><a href="#">音乐直播</a></li>
+                <li><a href="#">酷狗LIVE</a></li>
+                <li><a href="#">音乐人</a></li>
+                <li><a href="#">商城</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+    <div id="main">
+        <div class="hotlist">
+            <div>
+                <div class="listTitle" data-height="680" title="热门榜单">热门榜单<img src="img/list/hotlist/up.png" alt="up"/></div>
+                <ul>
+                    <li><a href="#"><img src="img/list/hotlist/h1.png" alt=""/>酷狗飙升榜<img src="img/list/hotlist/hot.png" alt="" class="hot"/></a></li>
+                    <li><a href="#"><img src="img/list/hotlist/h2.png" alt=""/>酷狗TOP500<img src="img/list/hotlist/hot.png" alt="" class="hot"/></a></li>
+                    <li><a href="#"><img src="img/list/hotlist/h3.png" alt=""/>网络红歌榜</a></li>
+                    <li><a href="#"><img src="img/list/hotlist/h4.jpg" alt=""/>DJ热歌榜</a></li>
+                    <li><a href="#"><img src="img/list/hotlist/h5.jpg" alt=""/>华语新歌榜</a></li>
+                    <li><a href="#"><img src="img/list/hotlist/h6.jpg" alt=""/>欧美新歌榜</a></li>
+                    <li><a href="#"><img src="img/list/hotlist/h7.jpg" alt=""/>韩国新歌榜</a></li>
+                    <li><a href="#"><img src="img/list/hotlist/h8.jpg" alt=""/>日本新歌榜</a></li>
+                    <li><a href="#"><img src="img/list/hotlist/h9.jpg" alt=""/>明日之子第二季榜<img src="img/list/hotlist/new.png" alt="" class="new"/></a></li>
+                    <li><a href="#"><img src="img/list/hotlist/h10.jpg" alt=""/>2018中国好声音榜<img src="img/list/hotlist/new.png" alt="" class="new"/></a></li>
+                    <li><a href="#"><img src="img/list/hotlist/h11.jpg" alt=""/>金曲捞第二季榜<img src="img/list/hotlist/new.png" alt="" class="new"/></a></li>
+                    <li><a href="#"><img src="img/list/hotlist/h12.jpg" alt=""/>中国新说唱榜<img src="img/list/hotlist/new.png" alt="" class="new"/></a></li>
+                    <li><a href="#"><img src="img/list/hotlist/h13.jpg" alt=""/>腾讯音乐人原创榜</a></li>
+                    <li><a href="#"><img src="img/list/hotlist/h14.jpg" alt=""/>粤语新歌榜</a></li>
+                    <li><a href="#"><img src="img/list/hotlist/h15.png" alt=""/>酷狗分享榜</a></li>
+                    <li><a href="#"><img src="img/list/hotlist/h16.png" alt=""/>5sing音乐榜</a></li>
+                    <li><a href="#"><img src="img/list/hotlist/h17.png" alt=""/>繁星音乐榜</a></li>
+                </ul>
+            </div>
+            <div>
+                <div class="listTitle" data-height="280" title="特色音乐榜">特色音乐榜<img src="img/list/hotlist/up.png" alt="up"/></div>
+                <ul>
+                    <li><a href="#"><img src="img/list/hotlist/t1.jpg" alt=""/>电音热歌榜</a></li>
+                    <li><a href="#"><img src="img/list/hotlist/t2.jpg" alt=""/>影视金曲榜</a></li>
+                    <li><a href="#"><img src="img/list/hotlist/t3.jpg" alt=""/>ACG热歌榜</a></li>
+                    <li><a href="#"><img src="img/list/hotlist/t4.jpg" alt=""/>粤语金曲榜</a></li>
+                    <li><a href="#"><img src="img/list/hotlist/t5.jpg" alt=""/>欧美金曲榜</a></li>
+                    <li><a href="#"><img src="img/list/hotlist/t6.jpg" alt=""/>古风金曲榜</a></li>
+                    <li><a href="#"><img src="img/list/hotlist/t7.jpg" alt=""/>纯音乐榜</a></li>
+                </ul>
+            </div>
+            <div>
+                <div class="listTitle" data-height="200" title="全球榜">全球榜<img src="img/list/hotlist/up.png" alt="up"/></div>
+                <ul>
+                    <li><a href="#"><img src="img/list/hotlist/q1.png" alt=""/>美国BillBoard榜</a></li>
+                    <li><a href="#"><img src="img/list/hotlist/q2.png" alt=""/>英国单曲榜</a></li>
+                    <li><a href="#"><img src="img/list/hotlist/q3.png" alt=""/>日本公信榜</a></li>
+                    <li><a href="#"><img src="img/list/hotlist/q4.png" alt=""/>韩国M-net音乐榜</a></li>
+                    <li><a href="#"><img src="img/list/hotlist/q5.png" alt=""/>中国TOP排行榜</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="listContent">
+            <div class="contentTitle">
+                <h3>酷狗飙升榜</h3>
+                <span>2018-09-19 更新</span>
+                <a href=""><img src="img/list/content/play.png" alt=""/>播放全部</a>
+            </div>
+            <div class="contentList">
+                <div>
+                    <label class="multiple">
+                        <input type="checkbox" id="checkall"><span></span>
+                    </label>
+                    <span style="font-size: 14px;color: #999;">全选</span>
+                </div>
+                <div class="musicList">
+                    <ul>
+                        <li>
+                            <label class="multiple">
+                                <input type="checkbox" name="checkitem"><span></span>
+                            </label>
+                            <span><strong style="color: #fe2c62;font-size:18px">1</strong></span>
+                            <img src="img/index/others/new1.png" alt=""/>
+                            <span class="singer_title">杨坤-答案</span>
+                            <span class="music_time">3:56</span>
+                            <span class="icon">
+                                <img src="img/index/others/play1.png" alt="play"/>
+                                <img src="img/index/others/down.png" alt="down"/>
+                                <img src="img/index/others/share.png" alt="share"/>
+                            </span>
+                        </li>
+                        <li>
+                            <label class="multiple">
+                                <input type="checkbox" name="checkitem"><span></span>
+                            </label>
+                            <span><strong style="color: #fe2c62;font-size:18px">2</strong></span>
+                            <img src="img/index/others/new1.png" alt=""/>
+                            <span class="singer_title">李玉刚-我一直在这里</span>
+                            <span class="music_time">3:56</span>
+                            <span class="icon">
+                                <img src="img/index/others/play1.png" alt="play"/>
+                                <img src="img/index/others/down.png" alt="down"/>
+                                <img src="img/index/others/share.png" alt="share"/>
+                            </span>
+                        </li>
+                        <li>
+                            <label class="multiple">
+                                <input type="checkbox" name="checkitem"><span></span>
+                            </label>
+                            <span><strong style="color: #fe2c62;font-size:18px">3</strong></span>
+                            <img src="img/index/others/new1.png" alt=""/>
+                            <span class="singer_title">胡66-读者</span>
+                            <span class="music_time">3:56</span>
+                            <span class="icon">
+                                <img src="img/index/others/play1.png" alt="play"/>
+                                <img src="img/index/others/down.png" alt="down"/>
+                                <img src="img/index/others/share.png" alt="share"/>
+                            </span>
+                        </li>
+                        <li>
+                            <label class="multiple">
+                                <input type="checkbox" name="checkitem"><span></span>
+                            </label>
+                            <span>4</span>
+                            <img src="img/index/others/new1.png" alt=""/>
+                            <span class="singer_title">张丹峰-花好月圆夜</span>
+                            <span class="music_time">3:56</span>
+                            <span class="icon">
+                                <img src="img/index/others/play1.png" alt="play"/>
+                                <img src="img/index/others/down.png" alt="down"/>
+                                <img src="img/index/others/share.png" alt="share"/>
+                            </span>
+                        </li>
+                        <li>
+                            <label class="multiple">
+                                <input type="checkbox" name="checkitem"><span></span>
+                            </label>
+                            <span>5</span>
+                            <img src="img/index/others/new1.png" alt=""/>
+                            <span class="singer_title">洛天依-我不想忘了</span>
+                            <span class="music_time">3:56</span>
+                            <span class="icon">
+                                <img src="img/index/others/play1.png" alt="play"/>
+                                <img src="img/index/others/down.png" alt="down"/>
+                                <img src="img/index/others/share.png" alt="share"/>
+                            </span>
+                        </li>
+                        <li>
+                            <label class="multiple">
+                                <input type="checkbox" name="checkitem"><span></span>
+                            </label>
+                            <span>6</span>
+                            <img src="img/index/others/new1.png" alt=""/>
+                            <span class="singer_title">夏婉安-原谅</span>
+                            <span class="music_time">3:56</span>
+                            <span class="icon">
+                                <img src="img/index/others/play1.png" alt="play"/>
+                                <img src="img/index/others/down.png" alt="down"/>
+                                <img src="img/index/others/share.png" alt="share"/>
+                            </span>
+                        </li>
+                        <li>
+                            <label class="multiple">
+                                <input type="checkbox" name="checkitem"><span></span>
+                            </label>
+                            <span>7</span>
+                            <img src="img/index/others/new1.png" alt=""/>
+                            <span class="singer_title">叶洛洛-如营</span>
+                            <span class="music_time">3:56</span>
+                            <span class="icon">
+                                <img src="img/index/others/play1.png" alt="play"/>
+                                <img src="img/index/others/down.png" alt="down"/>
+                                <img src="img/index/others/share.png" alt="share"/>
+                            </span>
+                        </li>
+                        <li>
+                            <label class="multiple">
+                                <input type="checkbox" name="checkitem"><span></span>
+                            </label>
+                            <span>8</span>
+                            <img src="img/index/others/new1.png" alt=""/>
+                            <span class="singer_title">凤凰创奇-月亮之上</span>
+                            <span class="music_time">3:56</span>
+                            <span class="icon">
+                                <img src="img/index/others/play1.png" alt="play"/>
+                                <img src="img/index/others/down.png" alt="down"/>
+                                <img src="img/index/others/share.png" alt="share"/>
+                            </span>
+                        </li>
+                        <li>
+                            <label class="multiple">
+                                <input type="checkbox" name="checkitem"><span></span>
+                            </label>
+                            <span>9</span>
+                            <img src="img/index/others/new1.png" alt=""/>
+                            <span class="singer_title">严艺丹-问月</span>
+                            <span class="music_time">3:56</span>
+                            <span class="icon">
+                                <img src="img/index/others/play1.png" alt="play"/>
+                                <img src="img/index/others/down.png" alt="down"/>
+                                <img src="img/index/others/share.png" alt="share"/>
+                            </span>
+                        </li>
+                        <li>
+                            <label class="multiple">
+                                <input type="checkbox" name="checkitem"><span></span>
+                            </label>
+                            <span>10</span>
+                            <img src="img/index/others/new1.png" alt=""/>
+                            <span class="singer_title">谢霆锋-空</span>
+                            <span class="music_time">3:56</span>
+                            <span class="icon">
+                                <img src="img/index/others/play1.png" alt="play"/>
+                                <img src="img/index/others/down.png" alt="down"/>
+                                <img src="img/index/others/share.png" alt="share"/>
+                            </span>
+                        </li>
+                        <li>
+                            <label class="multiple">
+                                <input type="checkbox" name="checkitem"><span></span>
+                            </label>
+                            <span>11</span>
+                            <img src="img/index/others/new1.png" alt=""/>
+                            <span class="singer_title">周杰伦-轨迹</span>
+                            <span class="music_time">3:56</span>
+                            <span class="icon">
+                                <img src="img/index/others/play1.png" alt="play"/>
+                                <img src="img/index/others/down.png" alt="down"/>
+                                <img src="img/index/others/share.png" alt="share"/>
+                            </span>
+                        </li>
+                        <li>
+                            <label class="multiple">
+                                <input type="checkbox" name="checkitem"><span></span>
+                            </label>
+                            <span>12</span>
+                            <img src="img/index/others/new1.png" alt=""/>
+                            <span class="singer_title">东方晴儿-爱你却让我心碎</span>
+                            <span class="music_time">3:56</span>
+                            <span class="icon">
+                                <img src="img/index/others/play1.png" alt="play"/>
+                                <img src="img/index/others/down.png" alt="down"/>
+                                <img src="img/index/others/share.png" alt="share"/>
+                            </span>
+                        </li>
+                        <li>
+                            <label class="multiple">
+                                <input type="checkbox" name="checkitem"><span></span>
+                            </label>
+                            <span>13</span>
+                            <img src="img/index/others/new1.png" alt=""/>
+                            <span class="singer_title">胡杏儿-梦回千里</span>
+                            <span class="music_time">3:56</span>
+                            <span class="icon">
+                                <img src="img/index/others/play1.png" alt="play"/>
+                                <img src="img/index/others/down.png" alt="down"/>
+                                <img src="img/index/others/share.png" alt="share"/>
+                            </span>
+                        </li>
+                        <li>
+                            <label class="multiple">
+                                <input type="checkbox" name="checkitem"><span></span>
+                            </label>
+                            <span>14</span>
+                            <img src="img/index/others/new1.png" alt=""/>
+                            <span class="singer_title">林志炫-梨花又开放</span>
+                            <span class="music_time">3:56</span>
+                            <span class="icon">
+                                <img src="img/index/others/play1.png" alt="play"/>
+                                <img src="img/index/others/down.png" alt="down"/>
+                                <img src="img/index/others/share.png" alt="share"/>
+                            </span>
+                        </li>
+                        <li>
+                            <label class="multiple">
+                                <input type="checkbox" name="checkitem"><span></span>
+                            </label>
+                            <span>15</span>
+                            <img src="img/index/others/new1.png" alt=""/>
+                            <span class="singer_title">韩雪-红昭愿</span>
+                            <span class="music_time">3:56</span>
+                            <span class="icon">
+                                <img src="img/index/others/play1.png" alt="play"/>
+                                <img src="img/index/others/down.png" alt="down"/>
+                                <img src="img/index/others/share.png" alt="share"/>
+                            </span>
+                        </li>
+                        <li>
+                            <label class="multiple">
+                                <input type="checkbox" name="checkitem"><span></span>
+                            </label>
+                            <span>16</span>
+                            <img src="img/index/others/new1.png" alt=""/>
+                            <span class="singer_title">李玉刚-白月光</span>
+                            <span class="music_time">3:56</span>
+                            <span class="icon">
+                                <img src="img/index/others/play1.png" alt="play"/>
+                                <img src="img/index/others/down.png" alt="down"/>
+                                <img src="img/index/others/share.png" alt="share"/>
+                            </span>
+                        </li>
+                        <li>
+                            <label class="multiple">
+                                <input type="checkbox" name="checkitem"><span></span>
+                            </label>
+                            <span>17</span>
+                            <img src="img/index/others/new1.png" alt=""/>
+                            <span class="singer_title">李建-心升明月</span>
+                            <span class="music_time">3:56</span>
+                            <span class="icon">
+                                <img src="img/index/others/play1.png" alt="play"/>
+                                <img src="img/index/others/down.png" alt="down"/>
+                                <img src="img/index/others/share.png" alt="share"/>
+                            </span>
+                        </li>
+                        <li>
+                            <label class="multiple">
+                                <input type="checkbox" name="checkitem"><span></span>
+                            </label>
+                            <span>18</span>
+                            <img src="img/index/others/new1.png" alt=""/>
+                            <span class="singer_title">张碧晨-秋夜吟</span>
+                            <span class="music_time">3:56</span>
+                            <span class="icon">
+                                <img src="img/index/others/play1.png" alt="play"/>
+                                <img src="img/index/others/down.png" alt="down"/>
+                                <img src="img/index/others/share.png" alt="share"/>
+                            </span>
+                        </li>
+                        <li>
+                            <label class="multiple">
+                                <input type="checkbox" name="checkitem"><span></span>
+                            </label>
+                            <span>19</span>
+                            <img src="img/index/others/new1.png" alt=""/>
+                            <span class="singer_title">张杰-心光</span>
+                            <span class="music_time">3:56</span>
+                            <span class="icon">
+                                <img src="img/index/others/play1.png" alt="play"/>
+                                <img src="img/index/others/down.png" alt="down"/>
+                                <img src="img/index/others/share.png" alt="share"/>
+                            </span>
+                        </li>
+                        <li>
+                            <label class="multiple">
+                                <input type="checkbox" name="checkitem"><span></span>
+                            </label>
+                            <span>20</span>
+                            <img src="img/index/others/new1.png" alt=""/>
+                            <span class="singer_title">谭维维-影</span>
+                            <span class="music_time">3:56</span>
+                            <span class="icon">
+                                <img src="img/index/others/play1.png" alt="play"/>
+                                <img src="img/index/others/down.png" alt="down"/>
+                                <img src="img/index/others/share.png" alt="share"/>
+                            </span>
+                        </li>
+                        <li>
+                            <label class="multiple">
+                                <input type="checkbox" name="checkitem"><span></span>
+                            </label>
+                            <span>21</span>
+                            <img src="img/index/others/new1.png" alt=""/>
+                            <span class="singer_title">姜玉阳-如果最后不是你</span>
+                            <span class="music_time">3:56</span>
+                            <span class="icon">
+                                <img src="img/index/others/play1.png" alt="play"/>
+                                <img src="img/index/others/down.png" alt="down"/>
+                                <img src="img/index/others/share.png" alt="share"/>
+                            </span>
+                        </li>
+                        <li>
+                            <label class="multiple">
+                                <input type="checkbox" name="checkitem"><span></span>
+                            </label>
+                            <span>21</span>
+                            <img src="img/index/others/new1.png" alt=""/>
+                            <span class="singer_title">周杰伦-告白气球</span>
+                            <span class="music_time">3:58</span>
+                            <span class="icon">
+                                <img src="img/index/others/play1.png" alt="play"/>
+                                <img src="img/index/others/down.png" alt="down"/>
+                                <img src="img/index/others/share.png" alt="share"/>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="download">
+                查看更多内容，请下载客户端
+                <span>立即下载</span>
+            </div>
+        </div>
+    </div>
+    <iframe src="footer.html" frameborder="0" style="width:100%;height:320px;min-width: 1300px"></iframe>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/list.js"></script>
+<script>
+
+</script>
+</body>
+</html>
